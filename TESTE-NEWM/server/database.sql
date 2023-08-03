@@ -1,0 +1,11 @@
+CREATE DATABASE dbteste;
+
+CREATE TABLE cliente(
+    client_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(14) PRIMARY KEY NOT NULL,
+    celular VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    endereco VARCHAR(100) NOT NULL,
+    observacao TEXT(300)
+);
